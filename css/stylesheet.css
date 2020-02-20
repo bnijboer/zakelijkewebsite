@@ -1,0 +1,327 @@
+/* GENERAL */
+
+      @media (max-width: 1080px) {
+            .desktop-visible {
+                  display: none;
+            }
+
+            .font-sm-resize {
+                 font-size: 60px;
+            }
+      }
+
+      html,
+      body,
+      header {
+            height: 100vh;
+            
+      }
+
+      html {
+            scroll-behavior: smooth;
+      }
+
+      body {
+            background-color: #EAD2AC;
+            background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+            font-family: 'Work Sans', sans-serif;
+            color: #37323E;
+      }
+
+      .container {
+            background-color: #EAD2AC;
+            background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+      }
+
+      #landing-page {
+            background-image: url("assets/landingpage.jpg");
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            height: 100%;
+      }
+      
+      #wrapper {
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+            width: 100%;
+            margin: 0 auto;
+            padding-top: 250px;
+            text-align: center;
+      }
+
+      h2, h4, h5, h6 {
+            font-family: 'Oswald', sans-serif;
+      }
+
+      h1 {
+            color: white;
+            text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+            font-family: 'Montserrat Subrayada', sans-serif;
+            font-size: 150px;
+      }
+
+      h3 {
+            font-family: 'Archivo Black', sans-serif;
+            text-transform: uppercase;
+      }
+
+      h4 {
+            font-size: 20px;
+            color: white;
+            text-shadow: 1px 1px #000;
+      }
+
+      h5 {
+            font-size: 14px;
+      }
+
+      .pop-up-1 {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            padding: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+      }
+
+      .pop-up-2 {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            background-color: #F28A68;
+            padding: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            border: 5px solid white;
+      }
+
+      .pop-up-inner {
+            background-color: #F28A68;
+            padding: 10px;
+      }
+
+      .nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            height: 2.2em;
+      }
+
+      .nav-link {
+            color: white;
+      }
+
+      .nav-link:hover {
+            color: white;
+            text-shadow: -1px 0 gray, 0 1px gray, 1px 0 gray, 0 -1px gray;
+      }
+
+      a {
+            color: #37323E;
+      }
+
+      a:hover {
+            color: #4281A4;
+      }
+
+      .content {
+            background-color: white;
+      }
+
+      /* Used so that navbar doesn't overlap section headers */
+      .empty-row {
+            height: 2.2em;
+            vertical-align: top;
+            background-color: #fad489;
+            background-image: url("https://www.transparenttextures.com/patterns/sandpaper.png");
+      }
+
+      .section-header {
+            width: 100%;
+            color: white;
+            background-color: black;
+            text-align: center;
+            font-size: 24px;
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
+      }
+
+      .black-button {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+      }
+
+      .black-button:hover {
+            opacity: 0.7;
+      }
+
+
+/* ABOUT */
+
+      .intro {
+            padding: 20px;
+            text-align: center;
+      }
+
+      .impression {
+            width: 25%;
+            
+            margin: 10px 0;
+      }
+
+      .impression-photo {
+            width: 100%;
+      }
+
+/* FOOD */
+
+      .menu {
+            height: 300px;
+            width: 300px;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            line-height: 300px;
+            margin: 10px 0;
+      }
+
+      .dining {
+            background-image: url("assets/food2.jpg");
+            background-position: bottom 50%;
+      }
+
+      .dining:hover {
+            -webkit-filter: blur(4px);
+            filter: blur(4px);
+      }
+
+      .drinks {
+            background-image: url("assets/cocktail.jpg");
+            background-position: center;
+      }
+
+      .drinks:hover {
+            -webkit-filter: blur(4px);
+            filter: blur(4px);
+      }
+
+      .arrows {
+          text-align: center;  
+          padding: 100px 20px;
+      }
+
+      .fa-exchange-alt{
+            font-size: 50px;
+      }
+
+/* EVENTS */
+
+      .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: 10px auto;
+            text-align: center;
+      }
+
+      .event-image {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+      }
+      
+      .event-date {
+            color: #4281A4;
+            font-size: 16px;
+      }
+
+      .card-text {
+            padding: 0 10px;
+      }
+
+/* SHOP */
+
+      .flip-card {
+            background-color: transparent;
+            width: 300px;
+            height: 300px;
+            perspective: 1000px;
+            margin: 10px 0;
+      }
+
+      .flip-card-image {
+            width: 300px;
+            height: 300px;
+            object-fit: cover;
+      }
+    
+      .flip-card-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+      }
+    
+      .flip-card:hover .flip-card-inner {
+            transform: rotateY(180deg);
+      }
+    
+      .flip-card-front, .flip-card-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+      }
+    
+      .flip-card-front {
+            background-color: #9CAFB7;
+            color: black;
+      }
+    
+      .flip-card-back {
+            background-color: white;
+            color: white;
+            transform: rotateY(180deg);
+      }
+
+      .shop-button {
+            background-color: #F28A68;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 25px;
+            width: 100%;
+      }
+
+      .social-media {
+            text-align: center;
+            color: white;
+            background-color: #F28A68;
+      }
+
+      .info {
+            padding-bottom: 20px;
+      }
+
+/* INFO */
+
+      h6 {
+            font-size: 18px;
+            font-weight: bold;
+            padding-top: 20px;
+      }
+
+/* FOOTER */
+
+      footer {
+            background-color: black;
+            color: rgb(117, 107, 107);
+            margin-top: 350px;
+      }
